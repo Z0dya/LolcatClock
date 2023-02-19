@@ -117,6 +117,7 @@ h1 {
   .funnyImg {
     margin-top: 2rem;
     width: 30rem;
+    height: 23rem;
   }
 }
 
