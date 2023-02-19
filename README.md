@@ -1,5 +1,7 @@
 # vue-time
 
+## How this looks like - https://lolcat-clock-dl8g1v20r-ca1doz.vercel.app/
+
 ## Project setup
 ```
 npm install
