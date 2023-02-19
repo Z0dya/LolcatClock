@@ -15,7 +15,7 @@
       </div>
     </div>
     <div class="footer">
-      <p>This is a copy of an already existing site, I just made an analogue in order to practice my skills</p>
+      <p class="footer-text">This is a copy of an already existing site, I just made an analogue in order to practice my skills</p>
     </div>
   </div>
 </template>
@@ -70,7 +70,7 @@ p {
 }
 
 h1 {
-  margin: 10rem 0 0 0;
+  margin: 5rem 0 0 0;
 }
 
 .main {
@@ -80,11 +80,11 @@ h1 {
 
 .container {
   @extend %center;
-  flex-grow: 1;
 
   .timer {
     @extend %center;
     font-size: 3rem;
+    text-align: center;
 
     .timer-title {
       font-family: 'Bungee Shade', cursive;
@@ -95,6 +95,7 @@ h1 {
   .partyBtn {
 
     .Btn {
+      margin-top: 5rem;
       height: 5rem;
       font-size: 2rem;
       font-family: 'Bungee', cursive;
@@ -105,6 +106,7 @@ h1 {
       border: none;
       cursor: pointer;
       transition: all 0.2s ease;
+
     }
 
     .Btn:hover {
@@ -113,9 +115,8 @@ h1 {
   }
 
   .funnyImg {
-    margin: 5rem;
+    margin-top: 2rem;
     width: 30rem;
-    height: 30rem;
   }
 }
 
@@ -126,6 +127,21 @@ h1 {
   justify-content: center;
   width: 100%;
   font-size: 1rem;
+}
 
+
+@media (max-width: 590px) {
+  .footer-text {
+    width: 80%;
+    text-align: center;
+  }
+
+  .Btn {
+    margin-top: 2rem !important;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
 }
 </style>
